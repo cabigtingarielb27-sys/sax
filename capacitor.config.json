@@ -1,0 +1,29 @@
+{
+  "appId": "app.padalapay",
+  "appName": "PadalaPay",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "url": "https://padalapay.base44.app",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#f4f8fc",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "LocalNotifications": { "smallIcon": "ic_stat_icon", "iconColor": "#0ea5ff" },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"],
+      "androidIcon": "ic_stat_icon"
+    }
+  }
+}
